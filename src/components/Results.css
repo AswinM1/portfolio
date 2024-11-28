@@ -1,29 +1,65 @@
-/* Results.css */
+/* Main container */
 .results {
-    padding: 20px;
-   background-color: rgb(111, 14, 14);
-    width: 100vw;
-    margin: 0;
-    color: white;
-  }
+  padding: 20px;
+  background-color: rgb(111, 14, 14);
+  width: 100vw;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+/* Styling for the heading */
+.results h1 {
+  font-family: sans-serif;
+  font-size: 90px;
+  letter-spacing: -5px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 40px;
+}
+
+/* Flex container for the social icons */
+.socials-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+/* Styling for each social link */
+.socials-container a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Styling for the social logos */
+.socials-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Makes the icons circular */
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for the social icons */
+.socials-container img:hover {
+  transform: scale(1.1);
+}
+@media(max-width:750px) {
+ .results h1
+ {
+  font-size: 60px;
+ }
   
-  .slick-slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   
-  .card {
-    width: 350px;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}@media(max-width:450px) {
+  .results h1
+  {
+   font-size: 40px;
   }
-  
-  .card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensures images are well-scaled inside the container */
-  }
-  
+   
+   
+ }
+ 

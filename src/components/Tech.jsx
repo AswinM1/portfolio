@@ -26,6 +26,7 @@ function Tech() {
                     gap: '20px',
                     justifyContent: 'center',
                 }}
+                className='con'
             >
                 {skills.map((skill, index) => (
                     <div
@@ -44,8 +45,8 @@ function Tech() {
                             src={skill.logo}
                             alt={`${skill.name} logo`}
                             style={{
-                                width: '80px',
-                                height: '80px',
+                                width: '70px',
+                                height: '70px',
                                 
                             }}
                         />

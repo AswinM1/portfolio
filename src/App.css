@@ -1,10 +1,15 @@
-body
-{
-    overflow-x: hidden;
-    margin: 0%;
-    padding: auto;
- 
+
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: rgb(111, 14, 14);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
    
 
   
-}

@@ -13,54 +13,19 @@ function Results() {
 
     return (
         <div className="results">
-            <h1
-                style={{
-                    textAlign: 'center',
-                    fontFamily: 'sans-serif',
-                    fontSize: '90px',
-                    letterSpacing: '-5px',
-                    fontWeight: '700',
-                    color: 'black',
-                    marginBottom: '40px',
-                }}
-            >
-                Let's Connect
-            </h1>
-            <div
-                style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    flexDirection: 'row',
-                    gap: '20px',
-                }}
-            >
+            <h1>Let's Connect</h1>
+            <div className="socials-container">
                 {socials.map((social, index) => (
                     <a
                         key={index}
                         href={social.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{
-                            textDecoration: 'none',
-                            display: 'flex',
-                            alignItems: 'center',
-                            gap: '15px', // Space between image and text
-                        }}
                     >
                         <img
                             src={social.logo}
                             alt={`${social.name} logo`}
-                            style={{
-                                width: '50px',
-                                height: '50px',
-                                borderRadius: '50%', // Optional, makes the icons circular
-                                transition: 'transform 0.3s ease',
-                            }}
-                            onMouseOver={(e) => (e.currentTarget.style.transform = 'scale(1.1)')}
-                            onMouseOut={(e) => (e.currentTarget.style.transform = 'scale(1)')}
                         />
-                        
                     </a>
                 ))}
             </div>
