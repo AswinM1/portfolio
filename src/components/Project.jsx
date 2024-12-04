@@ -3,7 +3,7 @@ import './pro.css';
 
 function Project() {
   const projects = [
-    { name: 'React Portfolio', link: 'https://example.com/react-portfolio' },
+    { name: 'React Portfolio', link: 'https://aswin-portfolio-lilac.vercel.app/' },
     { name: 'Project 2', link: 'https://example.com/express-api' },
     { name: 'Project 3', link: 'https://example.com/html-website' },
     { name: 'Project 4', link: 'https://example.com/css-animations' },
