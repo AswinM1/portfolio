@@ -3,8 +3,8 @@ import './pro.css';
 
 function Project() {
   const projects = [
-    { name: 'React Portfolio', link: 'https://aswin-portfolio-lilac.vercel.app/' },
-    { name: 'Project 2', link: 'https://example.com/express-api' },
+    { name: 'Aswin-Portfolio', link: 'https://aswin-portfolio-lilac.vercel.app/' },
+    { name: 'Constellations-Ecommerce', link: 'https://constellation-ecommerce.vercel.app/' },
     { name: 'Project 3', link: 'https://example.com/html-website' },
     { name: 'Project 4', link: 'https://example.com/css-animations' },
   ];
